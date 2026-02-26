@@ -1,0 +1,1440 @@
+{
+  "version": 1,
+  "projectName": "Maladies Infectieuses",
+  "lessons": [
+    {
+      "id": "8426bbdd-6f3e-4f30-9ed9-abfe1132a64d",
+      "title": "Rage",
+      "mcqs": [
+        {
+          "id": "33c74dba-27d5-4045-ad5c-966446ace1d1",
+          "stem": "Quels sont les gestes à faire chez un patient présentant une morsure grave (grade 3) par un chien connu et suspect de rage:",
+          "propositions": [
+            {
+              "id": "9a64f8e7-762f-4b19-955f-cac7ac1bff75",
+              "letter": "A",
+              "text": "Il faut suturer rapidement la plaie avant de faire une sérothérapie"
+            },
+            {
+              "id": "875a8629-346f-4ccd-92a6-eb1999e20636",
+              "letter": "B",
+              "text": "Il faut tuer le chien"
+            },
+            {
+              "id": "ea9cdf6d-2133-4d91-bbb2-ca6575bdf3e8",
+              "letter": "C",
+              "text": "Il faut faire un lavage de la plaie + sérovaccination du patient"
+            },
+            {
+              "id": "32ae84f1-9ecd-41ed-8114-1e3bca640a4c",
+              "letter": "D",
+              "text": "Mettre le chien en observation"
+            },
+            {
+              "id": "8fbbebce-2138-445f-87a5-c2ee219ab282",
+              "letter": "E",
+              "text": "Il faut vacciner le chien"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "f0e0d454-a585-4e9f-913c-ffc3e8cb0caf",
+          "stem": "La rage est une zoonose transmise à l'homme par la salive des animaux infectés. Quel est parmi les modes de contamination suivants celui qui ne transmet pas le virus:",
+          "propositions": [
+            {
+              "id": "17e16ec6-983b-4f05-8dd9-43c65bd9d531",
+              "letter": "A",
+              "text": "La morsure"
+            },
+            {
+              "id": "ef015b1e-0929-4fb1-b449-a77f2060de0c",
+              "letter": "B",
+              "text": "Les griffures avec léchage de la plaie"
+            },
+            {
+              "id": "07d27b64-7f73-4048-a4dd-6503d3691181",
+              "letter": "C",
+              "text": "Le léchage sur peau saine"
+            },
+            {
+              "id": "5fc7cd63-9f4d-4106-9b06-64b34032af80",
+              "letter": "D",
+              "text": "L'inhalation dans des grottes abritant des chauves-souris"
+            },
+            {
+              "id": "f0939e21-1b4c-4dee-bb86-184162651dec",
+              "letter": "E",
+              "text": "La greffe de cornées infectées"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "25fbc47c-aa3a-4620-8c3a-046cca1936e6",
+      "title": "Staphylococcie",
+      "mcqs": [
+        {
+          "id": "5965a183-5b32-4874-89a5-6227c714ffcf",
+          "stem": "Le réservoir de staphylocoque est représenté par:",
+          "propositions": [
+            {
+              "id": "b6597d13-3670-4417-8fab-f60634b2fa8e",
+              "letter": "A",
+              "text": "L'homme sain à partir de son naso-pharynx"
+            },
+            {
+              "id": "eb5a033a-3a9b-4860-9f83-bf4c64ec4b1d",
+              "letter": "B",
+              "text": "L'homme sain à partir de la peau et des glandes sudoripares"
+            },
+            {
+              "id": "aaf5403c-4d18-4c84-ab52-280289f7a7e3",
+              "letter": "C",
+              "text": "Un patient porteur de lésions staphylococciques ouvertes"
+            },
+            {
+              "id": "9387cab9-6d42-42ff-978c-32cd8ae02788",
+              "letter": "D",
+              "text": "Les mains du personnel soignant"
+            },
+            {
+              "id": "284e20dd-5857-40bc-98f4-11ea97f406e5",
+              "letter": "E",
+              "text": "Des voies génitales infectées"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "86fe76a4-091f-43d2-a935-714c25614e04",
+          "stem": "Parmi les signes cliniques suivants lesquels caractérisent le placard staphylococcique :",
+          "propositions": [
+            {
+              "id": "f6c040f4-c3d6-435f-9fc7-ea9236b155d2",
+              "letter": "A",
+              "text": "Il est rouge violacé"
+            },
+            {
+              "id": "95c0ee86-cce7-4963-ace8-d51c5eb03c99",
+              "letter": "B",
+              "text": "Il est entouré d'un bourrelet inflammatoire"
+            },
+            {
+              "id": "ed299219-5630-4290-8e9e-2b1bb7de4502",
+              "letter": "C",
+              "text": "Il est froid"
+            },
+            {
+              "id": "7e848d86-3919-42cd-8c6a-9dd368ed8d92",
+              "letter": "D",
+              "text": "Il contient des germes au niveau des vésicules"
+            },
+            {
+              "id": "f0b3f837-2576-4327-bdd5-7f0dfc2137ee",
+              "letter": "E",
+              "text": "Il est souvent bilatéral"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "afc4d6f5-54fb-45c5-9e94-8b70c2d5b82c",
+          "stem": "Parmi les lésions cutanées suivantes, lesquelles contiennent du staphylocoque ?",
+          "propositions": [
+            {
+              "id": "f7f13f98-e3f3-4807-8410-d7b1d1fe9463",
+              "letter": "A",
+              "text": "Les furoncles"
+            },
+            {
+              "id": "44aa725d-d616-40f0-8676-ad0245b39d69",
+              "letter": "B",
+              "text": "Le sycosis de la barbe"
+            },
+            {
+              "id": "195dc4f8-b730-4273-aadd-88ae7d18685c",
+              "letter": "C",
+              "text": "Les panaris"
+            },
+            {
+              "id": "dbecd243-74dc-4ba3-a3af-1648e266fa83",
+              "letter": "D",
+              "text": "L'érythème polymorphe"
+            },
+            {
+              "id": "8185c3ac-f137-4adc-aaa5-43c71a3863a8",
+              "letter": "E",
+              "text": "L'orgelet"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "9a014503-067a-4d55-8c34-e0e9a3e74cbf",
+          "stem": "Quelles sont les propositions exactes concernant le staphylocoque Auréus:",
+          "propositions": [
+            {
+              "id": "842f4ee7-fbd3-4af9-95fb-87382a7fd0de",
+              "letter": "A",
+              "text": "Il peut élabore une exotoxine"
+            },
+            {
+              "id": "bda761dc-f6fe-421e-bb26-ae5f21269426",
+              "letter": "B",
+              "text": "Il est en cause dans l'anthrax"
+            },
+            {
+              "id": "a60f76c9-2052-463f-88a8-6fcb01f0b8da",
+              "letter": "C",
+              "text": "Il possède de nombreux facteurs de virulence"
+            },
+            {
+              "id": "97c6c818-c341-4605-b80e-db3306c42dfa",
+              "letter": "D",
+              "text": "Il est toujours pathogène pour l'homme"
+            },
+            {
+              "id": "65d50efb-0cd3-4d24-9286-761ddbc38cab",
+              "letter": "E",
+              "text": "Il est coagulase positive"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "382e55b8-0f16-434c-ac88-76751a0824ba",
+          "stem": "Les staphylocoques peuvent être en cause:",
+          "propositions": [
+            {
+              "id": "fe637b0d-f58d-4979-9bf1-af7340739919",
+              "letter": "A",
+              "text": "Dans les toxi-infections alimentaires"
+            },
+            {
+              "id": "bc010574-e40b-4a04-a1fe-eeedb67cdc2b",
+              "letter": "B",
+              "text": "Dans les staphylococcies malignes de la face"
+            },
+            {
+              "id": "cf7a7533-80a5-40bf-a5c7-4897976ab820",
+              "letter": "C",
+              "text": "Dans les endocardites sur prothèses"
+            },
+            {
+              "id": "3b9ad993-8ac3-4b94-91c7-dca7f7a811f4",
+              "letter": "D",
+              "text": "Dans les infections nosocomiales sur cathéter"
+            },
+            {
+              "id": "cb3e7b74-a483-4289-a970-c307a596eef6",
+              "letter": "E",
+              "text": "Dans les infections ostéoarticulaires"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "8cc21044-a79e-4c83-b374-c7dd21822d45",
+      "title": "Bactériémies à BGN",
+      "mcqs": [
+        {
+          "id": "f6cc0d64-bedd-4da1-a4e7-211ca6dfefc5",
+          "stem": "Le diagnostic de certitude des bactériémies à BGN est apporté par :",
+          "propositions": [
+            {
+              "id": "fc9c9ada-431b-45ef-a725-441485d889fe",
+              "letter": "A",
+              "text": "Les hémocultures"
+            },
+            {
+              "id": "187507e1-da94-4dba-b534-7e8061416702",
+              "letter": "B",
+              "text": "L'augmentation du taux des lactates dans le sang"
+            },
+            {
+              "id": "9d789771-9d1e-485c-a429-493c59f24196",
+              "letter": "C",
+              "text": "La FNS"
+            },
+            {
+              "id": "2be43d5e-33d8-449f-8a0f-6b6f40a478ab",
+              "letter": "D",
+              "text": "Le dosage de l'endotoxine dans le sang"
+            },
+            {
+              "id": "efcbf9d7-5e7f-4183-839b-e40748d91436",
+              "letter": "E",
+              "text": "Le bilan inflammatoire"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "349b29a6-587d-4bab-a7e3-bec83cd844eb",
+          "stem": "Le traitement probabiliste des bactériémies à BGN peut faire appel à :",
+          "propositions": [
+            {
+              "id": "f4c5ac14-76aa-43e2-b9bc-b44481167469",
+              "letter": "A",
+              "text": "L'association C3G + aminoside"
+            },
+            {
+              "id": "5e75b391-b888-456f-bd83-4cd71f3dad2c",
+              "letter": "B",
+              "text": "L'association macrolide + aminoside"
+            },
+            {
+              "id": "7a702b71-5f3b-4493-9f64-86965bcbd4e3",
+              "letter": "C",
+              "text": "L'association Vancomycine + aminoside"
+            },
+            {
+              "id": "11086a72-7580-405d-8b56-493fc3795f62",
+              "letter": "D",
+              "text": "L'association Fluoroquinolones + aminoside"
+            },
+            {
+              "id": "da094e54-ae36-424b-8c5f-2e19a373a24e",
+              "letter": "E",
+              "text": "L'association Fluoroquinolones + Vancomycine"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "57686bae-db26-4c76-95bb-b938d13e2ba3",
+          "stem": "Concernant les bactériémies à bacilles GRAM négatifs (BGN):",
+          "propositions": [
+            {
+              "id": "89d0cffc-7f13-4337-8fa3-53602ea27114",
+              "letter": "A",
+              "text": "Elles sont fréquentes en pathologie infectieuse"
+            },
+            {
+              "id": "e77a0bd2-490b-492d-8d87-74526530c854",
+              "letter": "B",
+              "text": "Le choc septique est la complication la plus grave"
+            },
+            {
+              "id": "f8283228-1985-4da0-9973-c205ffb90626",
+              "letter": "C",
+              "text": "Les portes d'entrée cutanées sont les plus fréquentes"
+            },
+            {
+              "id": "2751d418-b9e4-4516-8982-25c5c1017baf",
+              "letter": "D",
+              "text": "L'origine nosocomiale fait toute leur gravité"
+            },
+            {
+              "id": "5e51935c-4657-4c3d-9317-99e76876f6a8",
+              "letter": "E",
+              "text": "Les portes d'entrée dentaires sont fréquentes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "9bc8c7c6-096f-4eff-8647-e3e43205ea26",
+      "title": "Sepsis et choc septique",
+      "mcqs": [
+        {
+          "id": "258ac742-9d02-4811-978c-b8334dadc47a",
+          "stem": "Parmi les éléments suivants lesquels définissent le sepsis:",
+          "propositions": [
+            {
+              "id": "30d7e719-7bbd-4672-ab2e-83ed750c325e",
+              "letter": "A",
+              "text": "Une fièvre à 40°C"
+            },
+            {
+              "id": "b3c52815-83d5-414d-80da-ed93ba8fdcf8",
+              "letter": "B",
+              "text": "Des signes d'infection associés à la dysfonction d'un organe"
+            },
+            {
+              "id": "d5d54afc-3a0b-48d5-85ae-738c84940b5c",
+              "letter": "C",
+              "text": "Une fréquence respiratoire à 30 cycles/mn associée à une bradycardie"
+            },
+            {
+              "id": "077259d8-9415-443c-8f07-9ea7da5e0e7e",
+              "letter": "D",
+              "text": "Des signes d'infection associés à des convulsions"
+            },
+            {
+              "id": "10a43568-5a07-48ad-a22d-955edca03482",
+              "letter": "E",
+              "text": "Une hypotension artérielle systolique abaissée"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "c8b1527a-af36-444d-8e55-d1af2c84adcd",
+          "stem": "Parmi les éléments suivants lesquels définissent le choc septique:",
+          "propositions": [
+            {
+              "id": "2782e5b4-c19f-44b1-b0e4-38a18db2f7d8",
+              "letter": "A",
+              "text": "Un taux de lactates > à 2 mmoles /L"
+            },
+            {
+              "id": "809ac046-7115-4fd1-813b-73092edd1ecb",
+              "letter": "B",
+              "text": "Une pression artérielle systolique (PAS) < à 10"
+            },
+            {
+              "id": "79504ec6-8e0f-4367-b924-0db1c8a6e6b5",
+              "letter": "C",
+              "text": "Un sepsis + PAM < 65 mm de Hg sous vasopresseurs + lactates > 2 mmoles /L"
+            },
+            {
+              "id": "29d46d0a-75d5-4a71-84cc-4d08e0794495",
+              "letter": "D",
+              "text": "Une hypotension artérielle persistante malgré un remplissage bien conduit"
+            },
+            {
+              "id": "8932ab02-afbd-4808-8060-91d8123b28d6",
+              "letter": "E",
+              "text": "Une artérielle diastolique abaissée"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "3b4a6e05-8aa2-4f68-ab6b-f4095158b10c",
+          "stem": "Le traitement du choc septique repose sur:",
+          "propositions": [
+            {
+              "id": "81162021-bf49-468d-9dba-03b253e3a036",
+              "letter": "A",
+              "text": "L'administration de drogues vasopressives sans remplissage vasculaire"
+            },
+            {
+              "id": "ba27a500-28aa-4618-9167-c3c9ec6ea670",
+              "letter": "B",
+              "text": "Une Bi-antibiothérapie bactéricide et synergique seule"
+            },
+            {
+              "id": "1b75bf71-5ba3-4746-8341-c0bf7ca7d731",
+              "letter": "C",
+              "text": "Le remplissage vasculaire + antibiothérapie + drogues vasopressives + oxygénothérapie + traitement de la PE"
+            },
+            {
+              "id": "1f6e6e64-0672-4085-ba24-ba34e0119564",
+              "letter": "D",
+              "text": "Un remplissage vasculaire à base de macromolécules"
+            },
+            {
+              "id": "20198faf-0277-4f23-8db4-fd11342530c9",
+              "letter": "E",
+              "text": "Toutes ces réponses sont justes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "cc8089a8-d1ea-42da-8d29-28083163b5da",
+      "title": "Rubéole",
+      "mcqs": [
+        {
+          "id": "043360f1-2a46-44a3-868c-5faf642d5b75",
+          "stem": "La rubéole est une maladie virale éruptive, immunisante qui se transmet:",
+          "propositions": [
+            {
+              "id": "0603825f-3a30-4c45-b6ac-3363d3b3958b",
+              "letter": "A",
+              "text": "Par voie respiratoire à partir d'un malade atteint de rubéole"
+            },
+            {
+              "id": "683f4fb7-0a8f-4568-a1bc-3eb9b9f5b6a7",
+              "letter": "B",
+              "text": "Par le liquide des vésicules contenant le virus"
+            },
+            {
+              "id": "5796cf1d-4d3d-4f0a-857e-14596fd09da0",
+              "letter": "C",
+              "text": "Par le lait maternel"
+            },
+            {
+              "id": "9514978b-250e-4e0a-be12-e4702c0c05d3",
+              "letter": "D",
+              "text": "A partir d'un nouveau-né infecté"
+            },
+            {
+              "id": "ca2a14ef-9e64-4857-a1ff-dd523f32e4b2",
+              "letter": "E",
+              "text": "Par voie sexuelle"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "efad9cb5-df1f-4613-948d-c53485745a1e",
+      "title": "Toxoplasmose",
+      "mcqs": [
+        {
+          "id": "5949ebb3-41dd-4f63-b50d-393a45e51966",
+          "stem": "Quelles sont parmi les mesures suivantes, celles que vous conseillez à une femme enceinte non immunisée contre la toxoplasmose:",
+          "propositions": [
+            {
+              "id": "eb7866f8-9cb9-4f26-b911-bb70d700e69e",
+              "letter": "A",
+              "text": "De s'occuper régulièrement de son chat"
+            },
+            {
+              "id": "bb188fc7-b690-4b93-87d8-ac450f04f37f",
+              "letter": "B",
+              "text": "De consommer de la viande bien cuite"
+            },
+            {
+              "id": "85c28be3-f07d-49cf-bb9d-71cac28d74cc",
+              "letter": "C",
+              "text": "De surveiller mensuellement sa sérologie jusqu'à l'accouchement"
+            },
+            {
+              "id": "c2ed5da5-e660-4d6b-ad8c-6c7ee24fbdff",
+              "letter": "D",
+              "text": "De bien laver les fruits et les légumes consommés crus"
+            },
+            {
+              "id": "2822400d-1ed7-4c7a-a5cd-b693e0fe4588",
+              "letter": "E",
+              "text": "Toutes les réponses sont justes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "986528df-4a96-49ec-b1ee-c130c2fd2ab4",
+          "stem": "La toxoplasmose de l'immunodéprimé peut se manifester par:",
+          "propositions": [
+            {
+              "id": "d4dd1d57-7c9e-495b-9ee4-c7a610dc251a",
+              "letter": "A",
+              "text": "Des signes neurologiques chez le patient VIH"
+            },
+            {
+              "id": "e0ae6f53-0ddd-4abc-8e71-4e5467ed1a7d",
+              "letter": "B",
+              "text": "Des abcès hépatiques"
+            },
+            {
+              "id": "0a86d8a2-02fd-4fcd-b0dd-d47ab88bf415",
+              "letter": "C",
+              "text": "Une atteinte cardiaque à type de péricardite"
+            },
+            {
+              "id": "d3698a00-b39d-4583-8351-e94784e243f0",
+              "letter": "D",
+              "text": "Une choriorétinite"
+            },
+            {
+              "id": "3856de7c-fd5b-449d-983c-7a06c8af5f22",
+              "letter": "E",
+              "text": "Une hydrocéphalie ou microcéphalie chez le nouveau-né contaminé"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "c6c1a584-d9a0-4cd4-904b-2da02271c2ed",
+      "title": "Paludisme",
+      "mcqs": [
+        {
+          "id": "b781915c-f683-42a2-9df2-15de6437496b",
+          "stem": "Parmi les affirmations suivantes concernant le paludisme, lesquelles sont justes?",
+          "propositions": [
+            {
+              "id": "0a77d4d4-1dd7-4403-a23e-cf26fd299ca6",
+              "letter": "A",
+              "text": "Le parasite est transmis par piqure de moustique du genre Anophèle"
+            },
+            {
+              "id": "f90a57f3-231a-4595-be45-21823738fc77",
+              "letter": "B",
+              "text": "Le parasite est transmis par voie digestive"
+            },
+            {
+              "id": "90d6e571-cd5c-4553-a8a3-c8995824ce5c",
+              "letter": "C",
+              "text": "Son diagnostic doit être évoqué chez tout sujet revenant d'une zone d'endémie palustre"
+            },
+            {
+              "id": "25fa2af5-16af-4bd1-9647-6635c564394f",
+              "letter": "D",
+              "text": "Plasmodium Falciparum peut être responsable d'encéphalopathie grave"
+            },
+            {
+              "id": "77a063f6-29f8-4261-bb61-89f4ccd8b0f6",
+              "letter": "E",
+              "text": "Plasmodium falciparum peut être responsable d'accès de réviviscence"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "44e5897d-2a5b-4540-a479-4f84c1299373",
+          "stem": "Concernant les modes de transmission du paludisme lesquels sont justes ?",
+          "propositions": [
+            {
+              "id": "2a68520b-b1ab-4206-9857-d49030f17ebd",
+              "letter": "A",
+              "text": "La transfusion sanguine"
+            },
+            {
+              "id": "7a746cac-e459-4754-90d7-52c6f1995adf",
+              "letter": "B",
+              "text": "La voie sexuelle"
+            },
+            {
+              "id": "8b252aac-16af-4d15-a860-1c9a13a6a002",
+              "letter": "C",
+              "text": "La voie trans-placentaire"
+            },
+            {
+              "id": "bd66e091-eb14-45df-bd52-971ab8d4006b",
+              "letter": "D",
+              "text": "La greffe d'organes"
+            },
+            {
+              "id": "77546680-bd68-4697-9d8e-07428e34e778",
+              "letter": "E",
+              "text": "La voie digestive"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "080a7c81-a532-4ea2-9529-fb45e64cee61",
+      "title": "Diphtérie",
+      "mcqs": [
+        {
+          "id": "8fa21bad-5a4a-4915-bf23-0bc680966f39",
+          "stem": "Quelles sont les caractéristiques des fausses membranes au cours d'une angine diphtérique ?",
+          "propositions": [
+            {
+              "id": "f9184aa1-4d94-4f47-9b0f-c5dd63fa33fc",
+              "letter": "A",
+              "text": "Elles sont cohérentes"
+            },
+            {
+              "id": "9a820140-1691-4999-aeb8-a88951c29a0f",
+              "letter": "B",
+              "text": "Elles sont adhérentes"
+            },
+            {
+              "id": "9719246c-52e1-4df7-a1c5-7a59acd63200",
+              "letter": "C",
+              "text": "Elles sont extensives et ne se dissocient pas dans l'eau"
+            },
+            {
+              "id": "ce5241f4-d0ec-4d24-ac61-287a0bba667c",
+              "letter": "D",
+              "text": "Elles n'engainent jamais la luette"
+            },
+            {
+              "id": "6b27c0a0-1cf8-43d5-aebb-0e1f94d97755",
+              "letter": "E",
+              "text": "Elles sont de couleur jaunâtre"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "e93d9db8-5f2c-42ab-9707-e6bdf4b787ef",
+          "stem": "Quelles sont les complications que l'on peut rencontrer au cours de la diphtérie ?",
+          "propositions": [
+            {
+              "id": "95aa8c4e-752b-44ed-a43c-c0615fd74c9e",
+              "letter": "A",
+              "text": "La laryngite diphtérique ou Croup"
+            },
+            {
+              "id": "23f3f716-9f6f-4f47-9183-c8572a828b97",
+              "letter": "B",
+              "text": "La myocardite"
+            },
+            {
+              "id": "c1a74d5b-bfc8-4721-b415-da440fc16926",
+              "letter": "C",
+              "text": "La paralysie du voile du palais"
+            },
+            {
+              "id": "fe515e74-7ec1-4e73-a9fc-fd45373d7d32",
+              "letter": "D",
+              "text": "Une polyradiculonévrite"
+            },
+            {
+              "id": "92c35302-a64f-4a5d-8890-a0d33123f270",
+              "letter": "E",
+              "text": "Toutes les réponses sont justes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "60788359-e47b-467c-a961-d996ff8b19ba",
+      "title": "cholera",
+      "mcqs": [
+        {
+          "id": "a260089b-0967-4383-bda4-ca480f27181e",
+          "stem": "Parmi les signes suivants, lequel n'est pas retrouvé au cours du choléra ?",
+          "propositions": [
+            {
+              "id": "2ec4b848-5735-4316-8ed5-44d3e538b467",
+              "letter": "A",
+              "text": "Les vomissements"
+            },
+            {
+              "id": "cc0fa470-08c3-4855-9ba3-ec934fa048e6",
+              "letter": "B",
+              "text": "La diarrhée"
+            },
+            {
+              "id": "db21c55e-017d-423d-932a-ae664574242d",
+              "letter": "C",
+              "text": "La déshydratation"
+            },
+            {
+              "id": "1c6e97df-e62d-486d-ab2d-7a4406e69f02",
+              "letter": "D",
+              "text": "La fièvre"
+            },
+            {
+              "id": "67f8dae9-f551-4408-8e79-17e52fc1dff9",
+              "letter": "E",
+              "text": "La sécheresse des muqueuses"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "1d4e0ac2-f315-4857-a437-f877681ea9e9",
+          "stem": "Toutes les propositions suivantes caractérisent le choléra sauf une. Laquelle ?",
+          "propositions": [
+            {
+              "id": "a5f735b5-a126-4bf7-b59a-4be5277c3597",
+              "letter": "A",
+              "text": "C'est une maladie très contagieuse"
+            },
+            {
+              "id": "f46d9049-512f-4ead-b920-1ec3dc8b95f4",
+              "letter": "B",
+              "text": "Le réservoir de germes est représenté par l'homme"
+            },
+            {
+              "id": "61b69f61-1166-4732-bfdf-745945ebf705",
+              "letter": "C",
+              "text": "La transmission est interhumaine"
+            },
+            {
+              "id": "0822f7b2-627f-4171-95cf-ed755c4d4721",
+              "letter": "D",
+              "text": "C'est une maladie à transmission oro-fécale"
+            },
+            {
+              "id": "4e1e7d8d-da2b-4967-bb73-63231af98331",
+              "letter": "E",
+              "text": "L'immunité conférée par le choléra est définitive"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "9a5b6fa2-b8b8-454f-9d42-f1a2df80f22d",
+      "title": "Streptococcies",
+      "mcqs": [
+        {
+          "id": "906e4e1d-1f9c-40d0-9579-21b6c8190a8e",
+          "stem": "Parmi les signes cliniques suivants lesquels évoquent une origine streptococcique ?",
+          "propositions": [
+            {
+              "id": "891e8090-aa8d-4dd0-bd1a-6eae84d0af99",
+              "letter": "A",
+              "text": "Un exanthème scarlatiniforme"
+            },
+            {
+              "id": "14ea5c79-a149-4d5d-8188-922569267a55",
+              "letter": "B",
+              "text": "Une angine purulente"
+            },
+            {
+              "id": "4278dab4-05d1-4864-8377-e64d9f8c469a",
+              "letter": "C",
+              "text": "Un érysipèle"
+            },
+            {
+              "id": "4c221ee2-50ce-4267-ad04-e6fab382f163",
+              "letter": "D",
+              "text": "Un sycosis de la barbe"
+            },
+            {
+              "id": "8c57fa26-7df6-4806-a5ac-a86e9cfa63e2",
+              "letter": "E",
+              "text": "Des furoncles"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "4106f0fe-b931-4128-9f5f-83732ab38bf5",
+          "stem": "Parmi les signes cliniques suivants lesquels sont retrouvés au cours d'une scarlatine ?",
+          "propositions": [
+            {
+              "id": "34a5c5bb-cf7c-4a1a-a3ee-dd19cadbc6af",
+              "letter": "A",
+              "text": "Un exanthème avec intervalles de peau saine"
+            },
+            {
+              "id": "2d8a8cc6-c34b-475a-afc6-a75fbd93cd5d",
+              "letter": "B",
+              "text": "Un exanthème sans intervalles de peau saine"
+            },
+            {
+              "id": "841a7dd2-4cfb-4769-bd86-817b888206de",
+              "letter": "C",
+              "text": "Une peau rugueuse parsemée d'un fin granité"
+            },
+            {
+              "id": "ed9574fb-8f44-4957-908d-d14cc44a62cb",
+              "letter": "D",
+              "text": "Une langue framboisé"
+            },
+            {
+              "id": "82956b33-db5d-47e5-a2af-73a0add81489",
+              "letter": "E",
+              "text": "Une angine à fausses membranes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "2326b830-0bfd-4100-ac29-31b1d1bc34e4",
+      "title": "Dermohypodermite",
+      "mcqs": [
+        {
+          "id": "8896a6eb-2cc4-4b39-a3f9-d4a636528798",
+          "stem": "Quels sont parmi les facteurs suivants ceux qui favorisent la survenue d'un érysipèle ?",
+          "propositions": [
+            {
+              "id": "6c93bd3b-1b87-4e5d-822b-a326eae8eb30",
+              "letter": "A",
+              "text": "Un lymphœdème"
+            },
+            {
+              "id": "bbd9db98-6f5d-4815-8e0c-e2c980aef242",
+              "letter": "B",
+              "text": "Un intertrigo"
+            },
+            {
+              "id": "365add2e-3787-4b12-9806-777dda527621",
+              "letter": "C",
+              "text": "L'obésité"
+            },
+            {
+              "id": "87145608-f885-478e-bff8-675d0371e437",
+              "letter": "D",
+              "text": "Une varicelle"
+            },
+            {
+              "id": "9265cdb8-bd1d-40aa-8467-2dcbb8f0810b",
+              "letter": "E",
+              "text": "Une mauvaise hygiène"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "0ee3c3b6-92cc-484c-96a3-e253f7dbef3b",
+      "title": "Infection à VIH&SIDA",
+      "mcqs": [
+        {
+          "id": "a797081f-cde2-440a-bb35-b8ac4016f1a4",
+          "stem": "Quel est parmi les modes de transmission suivants celui qui ne transmet pas le VIH ?",
+          "propositions": [
+            {
+              "id": "ffa65602-a00e-4af2-aeb7-a0454f97555e",
+              "letter": "A",
+              "text": "La transmission cutanée"
+            },
+            {
+              "id": "41b15776-6207-47bc-9d4d-1e395a08fdb7",
+              "letter": "B",
+              "text": "La transmission sexuelle par les sécrétions vaginales"
+            },
+            {
+              "id": "35b5af88-60d9-4416-a9b7-5c4d3499a2f4",
+              "letter": "C",
+              "text": "La transmission mère-enfant ou transmission verticale"
+            },
+            {
+              "id": "7cc4e231-7fe2-446c-8ff2-738d889b5655",
+              "letter": "D",
+              "text": "La transmission par le sang"
+            },
+            {
+              "id": "c16228d7-5c42-4e8a-9217-70b7bfe562e5",
+              "letter": "E",
+              "text": "La transmission par les dérivés sanguins"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "26425eca-1264-4287-bc97-721a0b787eac",
+          "stem": "Quelles sont les situations justifiant la prescription d'une sérologie VIH ?",
+          "propositions": [
+            {
+              "id": "0fc0c268-4a30-4e0a-a4d8-92cd0e6f30a5",
+              "letter": "A",
+              "text": "Une fièvre au long cours"
+            },
+            {
+              "id": "bd384c4e-5369-40cc-a2cb-f2026f526b0f",
+              "letter": "B",
+              "text": "La grossesse"
+            },
+            {
+              "id": "eaa6e94a-2164-472d-9fa7-cc6cbe5bba12",
+              "letter": "C",
+              "text": "Une lymphopénie"
+            },
+            {
+              "id": "7ddd5a16-6733-4d88-a8aa-aba309c8c11d",
+              "letter": "D",
+              "text": "Un zona chez un sujet âgé"
+            },
+            {
+              "id": "0da8b84c-ba31-4a32-9173-3309852e588f",
+              "letter": "E",
+              "text": "Un accident d'exposition au sang"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "961ce72c-e244-4fa2-8a9c-98825704280f",
+          "stem": "Quelles sont les infections qui peuvent être rencontrées au cours de l'infection VIH lorsque le taux de CD4 est situé entre 350 et 200?",
+          "propositions": [
+            {
+              "id": "4cbd456e-62d1-49ed-a841-0b8d4b85c84d",
+              "letter": "A",
+              "text": "La tuberculose"
+            },
+            {
+              "id": "b2f9808e-d059-4cc1-8fdc-ebd18da90288",
+              "letter": "B",
+              "text": "La toxoplasmose cérébrale"
+            },
+            {
+              "id": "16940871-f344-4d9c-b18a-3e0236368c6f",
+              "letter": "C",
+              "text": "Les candidoses œsophagiennes"
+            },
+            {
+              "id": "c6cefebf-da81-44d5-9385-f68502015bf0",
+              "letter": "D",
+              "text": "Les candidoses oro-pharyngées"
+            },
+            {
+              "id": "0e161053-4584-43a8-9736-c897d0265c28",
+              "letter": "E",
+              "text": "La pneumocystose"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "d14fc158-2a78-4bd4-99fe-c08999d89594",
+          "stem": "La transmission du virus de l'immunodéficience humaine (VIH) est maximale:",
+          "propositions": [
+            {
+              "id": "7c093284-efea-45b4-ae17-b04148bf92a5",
+              "letter": "A",
+              "text": "Au premier trimestre de la grossesse"
+            },
+            {
+              "id": "4744b19e-1cdc-4e92-a001-eb27ae323c89",
+              "letter": "B",
+              "text": "Au 2ème trimestre de la grossesse"
+            },
+            {
+              "id": "d6872e27-d7d6-45b2-a92f-b9c50bcc4564",
+              "letter": "C",
+              "text": "Au 3ème trimestre de la grossesse"
+            },
+            {
+              "id": "63e8073a-30ad-4ddd-a2b6-edef45a59f23",
+              "letter": "D",
+              "text": "Au moment de l'accouchement"
+            },
+            {
+              "id": "59c5224c-2836-458f-ab2a-5f3061d98b7d",
+              "letter": "E",
+              "text": "Toutes les réponses sont justes"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "c8903bc8-b6b5-4f40-b5fd-e6cc4cee55fb",
+      "title": "Diarrhées infectieuses",
+      "mcqs": [
+        {
+          "id": "b22cb03b-a97b-4f8e-b1e6-f84e631839d7",
+          "stem": "Parmi les affections suivantes lesquelles sont à transmission hydrique?",
+          "propositions": [
+            {
+              "id": "54754244-d9b7-451a-be2e-f8f8551a83a7",
+              "letter": "A",
+              "text": "Le paludisme"
+            },
+            {
+              "id": "c619f47e-4e7e-4866-bac6-81e1d5fc5a63",
+              "letter": "B",
+              "text": "Le choléra"
+            },
+            {
+              "id": "1e9034a8-fb43-43c7-bf63-80030e877ea6",
+              "letter": "C",
+              "text": "La fièvre typhoïde"
+            },
+            {
+              "id": "e213c557-4b15-4a7f-8a9e-187300597a9d",
+              "letter": "D",
+              "text": "La varicelle"
+            },
+            {
+              "id": "e579baf0-20a9-45f5-b937-ac41dfa7d6a9",
+              "letter": "E",
+              "text": "Le tétanos"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "88e3e230-8e47-4fe9-be84-b4c5f954305f",
+      "title": "Méningite à liquide claire",
+      "mcqs": [
+        {
+          "id": "75028e6b-d476-4a97-87d7-57bd12e0929c",
+          "stem": "Parmi les méningites suivantes laquelle est lymphocytaire hypoglycorachique ?",
+          "propositions": [
+            {
+              "id": "d3efff44-b389-46c5-809a-71d226fa2bb4",
+              "letter": "A",
+              "text": "La méningite à pneumocoque"
+            },
+            {
+              "id": "3eee1e81-ccfd-4856-b60b-f84dab74cc6a",
+              "letter": "B",
+              "text": "La méningite à méningocoque"
+            },
+            {
+              "id": "7ef41b94-1644-4a18-8a53-218d29d86c2b",
+              "letter": "C",
+              "text": "La méningite tuberculeuse"
+            },
+            {
+              "id": "00d8228c-acde-4c7e-a5ae-8d270361ebd6",
+              "letter": "D",
+              "text": "La méningite ourlienne"
+            },
+            {
+              "id": "a1bb8cdc-ae44-48de-92db-16638b4e50b1",
+              "letter": "E",
+              "text": "La méningoencéphalite herpétique"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "e22eab82-35f5-4fa8-9431-e89afb65248a",
+      "title": "Méningites purulentes",
+      "mcqs": [
+        {
+          "id": "271ba848-4ded-4fd2-b52c-5f24620f9b85",
+          "stem": "Quelles sont les affirmations justes concernant les contre-indications de la ponction lombaire ?",
+          "propositions": [
+            {
+              "id": "85f66cb0-6d60-4238-825c-59254f150988",
+              "letter": "A",
+              "text": "L'existence d'une HIC"
+            },
+            {
+              "id": "dd2dd52e-5d85-494f-b5fb-59a434a78a37",
+              "letter": "B",
+              "text": "Une infection du rachis au point de piqure"
+            },
+            {
+              "id": "7b0e5365-f9ef-41c5-84b1-362e9eca01f8",
+              "letter": "C",
+              "text": "Des signes de focalisation"
+            },
+            {
+              "id": "0d5460fe-d90a-4bd2-b2c0-a33a6ba7ba28",
+              "letter": "D",
+              "text": "Une cyphoscoliose"
+            },
+            {
+              "id": "7e71ab67-2fda-471f-b0b4-db634d575002",
+              "letter": "E",
+              "text": "Des troubles de l'hémostase"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "8a28976e-ef9c-4797-910d-fa4b0f06e278",
+          "stem": "Au cours d'une épidémie de méningites à méningocoque, l'antibioprophylaxie repose sur:",
+          "propositions": [
+            {
+              "id": "c8e105da-b2b2-4e4f-a0b5-b3c8ecefb4f8",
+              "letter": "A",
+              "text": "La Spiramycine"
+            },
+            {
+              "id": "9c552823-7da3-408e-97a3-6a7a1204d509",
+              "letter": "B",
+              "text": "La Vancomycine"
+            },
+            {
+              "id": "5ab833da-22f2-4f12-af63-510dca83d2b0",
+              "letter": "C",
+              "text": "La Pénicilline G"
+            },
+            {
+              "id": "38a37d03-850c-4e49-a050-e5196da0ccef",
+              "letter": "D",
+              "text": "La Rifampicine"
+            },
+            {
+              "id": "60868f8c-0a49-4d45-a1c0-d957ca4afbc3",
+              "letter": "E",
+              "text": "La fosfomycine"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "470ab2d6-2e67-47a6-a668-8f7d12e0b910",
+          "stem": "Le traitement d'une méningite à pneumocoque de sensibilité diminuée à la pénicilline repose sur:",
+          "propositions": [
+            {
+              "id": "e8df0f46-acc7-4b5d-9b79-0b383f36285c",
+              "letter": "A",
+              "text": "Une Céphalosporine de 1ère génération"
+            },
+            {
+              "id": "fed9a711-03e3-4aa9-9e46-32c479ac1d4d",
+              "letter": "B",
+              "text": "Une Céphalosporine de 3ème génération + aminoside"
+            },
+            {
+              "id": "9a37ca30-8737-4618-8489-78a14de5b11f",
+              "letter": "C",
+              "text": "La Rifampicine + Bactrim"
+            },
+            {
+              "id": "0dd40fd8-0c26-43a7-9717-8d0fded4adf3",
+              "letter": "D",
+              "text": "Une Céphalosporine de 3ème génération + vancomycine"
+            },
+            {
+              "id": "1aeb8efa-e321-4a05-bf3a-b8b078288474",
+              "letter": "E",
+              "text": "L'Amoxicilline"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "6c62bf72-7214-414a-aa94-c33d2d2ca762",
+      "title": "Leptospirose",
+      "mcqs": [
+        {
+          "id": "06a37cce-bce7-473f-bddb-454c7682e182",
+          "stem": "Toutes les propositions suivantes caractérisant la leptospirose sont justes sauf une laquelle ?",
+          "propositions": [
+            {
+              "id": "5c5ccd47-695d-49d6-bb26-6f68fa071493",
+              "letter": "A",
+              "text": "La fièvre continue, en plateau ou ondulante"
+            },
+            {
+              "id": "ac0b87e0-4c07-4952-a56e-4911edcc1701",
+              "letter": "B",
+              "text": "La réaction méningée lymphocytaire"
+            },
+            {
+              "id": "7ce9ebaf-574b-4f07-9128-1a47a640bddb",
+              "letter": "C",
+              "text": "Une hépatonéphrite aigue"
+            },
+            {
+              "id": "bfcc8236-4542-4b92-bab7-2831f53b134b",
+              "letter": "D",
+              "text": "Une thrombopénie"
+            },
+            {
+              "id": "69e5cb35-e030-4042-ac68-e3a596d0ccb1",
+              "letter": "E",
+              "text": "Un ictère franc"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "6e645d15-05d0-4a7d-b678-164d1b15d97c",
+      "title": "Fièvre typhoide et paratyphoïde",
+      "mcqs": [
+        {
+          "id": "2c3ec7f6-6b64-4cff-bcba-fd54a022c7e9",
+          "stem": "Quelles sont les propositions justes concernant la fièvre typhoïde ?",
+          "propositions": [
+            {
+              "id": "fc13fad4-c38f-442c-adea-17ff82f91fa4",
+              "letter": "A",
+              "text": "La fièvre est en plateau avec un pouls dissocié"
+            },
+            {
+              "id": "60ce0619-3e4a-4035-9ff3-275a889f549b",
+              "letter": "B",
+              "text": "Les épistaxis ne sont pas caractéristiques"
+            },
+            {
+              "id": "d897a44c-32f8-43aa-b5d3-f170efcb3056",
+              "letter": "C",
+              "text": "Les taches rosées lenticulaires sont pathognomoniques"
+            },
+            {
+              "id": "c8d68003-3074-4d16-ab7e-889952c3d0f7",
+              "letter": "D",
+              "text": "Le tuphos survient au 1er septenaire"
+            },
+            {
+              "id": "a84e4006-760f-4da5-89ab-faea7a54c8f8",
+              "letter": "E",
+              "text": "L'évolution spontanée est favorable"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "98c68f64-e8bd-4df1-8f7b-a26410d3cf40",
+          "stem": "Le syndrome abdominal pseudo-perforatif au cours de la fièvre typhoïde:",
+          "propositions": [
+            {
+              "id": "e4e694df-5177-48ae-970e-f6f2641ab042",
+              "letter": "A",
+              "text": "Est dû à une libération importante d'endotoxine"
+            },
+            {
+              "id": "99994c28-3335-44e2-b921-f88dae52f318",
+              "letter": "B",
+              "text": "Est observé dans des formes graves"
+            },
+            {
+              "id": "bc6b2922-2d6a-4df7-b351-a5333c04c919",
+              "letter": "C",
+              "text": "Nécessite un arrêt de l'antibiothérapie"
+            },
+            {
+              "id": "b0819807-fd97-4eef-a7bb-be46d5c01866",
+              "letter": "D",
+              "text": "Nécessite de fortes doses d'antibiothérapie pour le prévenir"
+            },
+            {
+              "id": "b7d85c77-3350-490f-9c53-afe4728a5c80",
+              "letter": "E",
+              "text": "La corticothérapie est indiquée"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        },
+        {
+          "id": "eac2370d-dc15-4f51-ad10-ad3bbbe0edf2",
+          "stem": "Le diagnostic positif de fièvre typhoïde chez l'adulte repose sur:",
+          "propositions": [
+            {
+              "id": "266054f0-b4d6-42e1-878b-7f005663d763",
+              "letter": "A",
+              "text": "Le frottis et goutte épaisse"
+            },
+            {
+              "id": "a01853d7-134b-48be-9955-77699bfa97f2",
+              "letter": "B",
+              "text": "L'hémoculture"
+            },
+            {
+              "id": "6dfd6275-00fe-43f6-9fe4-58fd103d1e89",
+              "letter": "C",
+              "text": "La parasitologie des selles"
+            },
+            {
+              "id": "39f531df-d256-4f9d-ac09-6237ff5d55af",
+              "letter": "D",
+              "text": "La coproculture"
+            },
+            {
+              "id": "078da96c-889b-42d3-9674-dfd65ae4e363",
+              "letter": "E",
+              "text": "Le sérodiagnostic de Wright"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "2f3c3d2b-a7f3-413b-be0e-a36d81b91689",
+      "title": "Tétanos",
+      "mcqs": [
+        {
+          "id": "61d907f0-9960-41cb-9cf3-799b263f7d5b",
+          "stem": "Cochez les réponses fausses concernant le Tétanos:",
+          "propositions": [
+            {
+              "id": "9c3640fe-dc56-4a73-9c15-abe7766f9941",
+              "letter": "A",
+              "text": "C'est une toxi-infection immunisante"
+            },
+            {
+              "id": "069d8c82-af19-4f54-a4f3-2928a81ea76d",
+              "letter": "B",
+              "text": "Une incubation courte est un facteur de mauvais pronostic"
+            },
+            {
+              "id": "308888da-732a-4d23-8e04-5fe046cfcb27",
+              "letter": "C",
+              "text": "Le diagnostic se base sur des prélèvements au niveau de la porte d'entrée"
+            },
+            {
+              "id": "e3ed14f6-8deb-4a62-a08c-5083535354c0",
+              "letter": "D",
+              "text": "La tétanolysine est la toxine responsable de la symptomatologie"
+            },
+            {
+              "id": "2a71739a-053b-487e-97f1-18f35ffa04b7",
+              "letter": "E",
+              "text": "C'est une maladie qui peut être prévenue à 100% par une vaccination correcte"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "ef632681-d560-43cd-b616-833ab8091711",
+      "title": "Brucellose",
+      "mcqs": [
+        {
+          "id": "404f7f52-7150-44d2-85c9-e065bf4cab8f",
+          "stem": "Cochez les réponses justes concernant la Brucellose:",
+          "propositions": [
+            {
+              "id": "1b70d9d0-c23d-4e54-a8b1-c05d7ca0a38e",
+              "letter": "A",
+              "text": "La symptomatologie est marquée par la triade classique: frissons, fièvre, sueurs"
+            },
+            {
+              "id": "f93407f1-4e3f-48d1-8887-2de2aed4c6af",
+              "letter": "B",
+              "text": "Le sérodiagnostic de Wright est selon l'OMS la méthode diagnostic de référence"
+            },
+            {
+              "id": "0281d4c0-9a65-4c4a-8b4b-de1ddf624ad2",
+              "letter": "C",
+              "text": "Le sérodiagnostic de Wright se positive vers les 12-15ème jour d'évolution"
+            },
+            {
+              "id": "f44b9820-3ff3-4bb0-a801-650955da8930",
+              "letter": "D",
+              "text": "Le diagnostic de certitude repose sur l'hémoculture"
+            },
+            {
+              "id": "aad2eb81-8e9b-40b3-bea1-b9230f166207",
+              "letter": "E",
+              "text": "C'est une bactériémie à point de départ lymphatique"
+            }
+          ],
+          "correctAnswers": [],
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
