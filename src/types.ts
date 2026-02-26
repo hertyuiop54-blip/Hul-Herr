@@ -37,4 +37,5 @@ export interface Settings {
   columnGap: number;
   enableExplanations: boolean;
   highlightDuplicates: boolean;
+  geminiApiKey?: string;
 }

@@ -28,7 +28,11 @@ export function generatePDF(project: Project, settings: Settings) {
         
         // jsPDF text alignment
         const align = el.align === 'center' ? 'center' : el.align === 'right' ? 'right' : 'left';
-        doc.text(el.text || '', el.x, el.y, { align, baseline: 'top' });
+        if (el.linkToPage !== undefined) {
+          doc.textWithLink(el.text || '', el.x, el.y, { pageNumber: el.linkToPage, align, baseline: 'top' } as any);
+        } else {
+          doc.text(el.text || '', el.x, el.y, { align, baseline: 'top' });
+        }
       } else if (el.type === 'rect') {
         doc.setDrawColor('#e2e8f0');
         doc.setFillColor(el.color || '#ffffff');

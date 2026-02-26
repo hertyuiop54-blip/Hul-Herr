@@ -35,6 +35,7 @@ const A4Page: React.FC<{ page: LayoutPage }> = ({ page }) => {
 
   return (
     <div
+      id={`page-${page.pageNumber}`}
       className="bg-white relative shrink-0 shadow-[0_20px_40px_rgba(0,0,0,0.06),0_1px_3px_rgba(0,0,0,0.05)] rounded-sm"
       style={{
         width: `${width}px`,
@@ -43,9 +44,15 @@ const A4Page: React.FC<{ page: LayoutPage }> = ({ page }) => {
     >
       {page.elements.map((el, i) => {
         if (el.type === 'text') {
+          const isLink = el.linkToPage !== undefined;
           return (
             <div
               key={i}
+              onClick={() => {
+                if (isLink) {
+                  document.getElementById(`page-${el.linkToPage}`)?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               style={{
                 position: 'absolute',
                 left: `${el.x * scale}px`,
@@ -60,7 +67,9 @@ const A4Page: React.FC<{ page: LayoutPage }> = ({ page }) => {
                 lineHeight: 1,
                 fontFamily: el.fontStyle === 'bold' && el.fontSize && el.fontSize > 12 ? 'var(--font-serif)' : 'var(--font-sans)',
                 letterSpacing: el.fontStyle === 'bold' && el.fontSize && el.fontSize > 12 ? '-0.02em' : 'normal',
+                cursor: isLink ? 'pointer' : 'default',
               }}
+              className={isLink ? 'hover:text-brand-600 transition-colors' : ''}
             >
               {el.text}
             </div>

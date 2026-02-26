@@ -21,6 +21,7 @@ export interface LayoutElement {
   fontStyle?: 'normal' | 'bold' | 'italic';
   color?: string;
   align?: 'left' | 'center' | 'right';
+  linkToPage?: number;
 }
 
 const A4_WIDTH = 210;
@@ -345,8 +346,8 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
     const titleStr = item.title;
     const rightStr = `${item.mcqCount} MCQs  |  Page ${item.page}`;
     
-    tocElements.push({ type: 'text', text: titleStr, x: marginLeft, y: tocY, fontSize: tocFontSize, fontStyle: 'bold', color: '#1e293b', align: 'left' });
-    tocElements.push({ type: 'text', text: rightStr, x: A4_WIDTH - marginRight, y: tocY, fontSize: tocFontSize, fontStyle: 'normal', color: '#475569', align: 'right' });
+    tocElements.push({ type: 'text', text: titleStr, x: marginLeft, y: tocY, fontSize: tocFontSize, fontStyle: 'bold', color: '#1e293b', align: 'left', linkToPage: item.page });
+    tocElements.push({ type: 'text', text: rightStr, x: A4_WIDTH - marginRight, y: tocY, fontSize: tocFontSize, fontStyle: 'normal', color: '#475569', align: 'right', linkToPage: item.page });
     
     const titleW = getTextWidth(titleStr, tocFontSize, 'bold');
     const rightW = getTextWidth(rightStr, tocFontSize, 'normal');
@@ -371,6 +372,9 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
 
   for (const page of tocPages) {
     for (const el of page.elements) {
+      if (el.linkToPage !== undefined) {
+        el.linkToPage += tocPageCount;
+      }
       if (el.align === 'right' && el.text?.includes('Page ')) {
         const match = el.text.match(/(.*Page )(\d+)/);
         if (match) {

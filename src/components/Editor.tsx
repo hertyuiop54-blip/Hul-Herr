@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useApp, createEmptyMCQ } from '../store';
 import { v4 as uuidv4 } from 'uuid';
 import { SettingsPanel } from './SettingsPanel';
@@ -8,29 +8,46 @@ import { detectDuplicates } from '../duplicateDetection';
 export function Editor() {
   const { state, dispatch } = useApp();
   const { project, activeLessonId, activeMcqId } = state;
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const activeLesson = project.lessons.find((l) => l.id === activeLessonId);
   const activeMcq = activeLesson?.mcqs.find((m) => m.id === activeMcqId);
 
   const duplicateIds = detectDuplicates(project);
 
+  const handleImport = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      try {
+        const json = JSON.parse(event.target?.result as string);
+        if (json && json.projectName && json.lessons) {
+          dispatch({ type: 'LOAD_PROJECT', payload: json });
+        } else {
+          alert('Invalid project file format.');
+        }
+      } catch (err) {
+        alert('Failed to parse JSON file.');
+      }
+    };
+    reader.readAsText(file);
+    if (fileInputRef.current) fileInputRef.current.value = '';
+  };
+
   return (
     <div className="w-[420px] glass-panel border-r border-white/60 flex flex-col h-full overflow-y-auto z-20">
       <div className="p-6 border-b border-white/60 flex items-center justify-between sticky top-0 bg-white/40 backdrop-blur-md z-10">
         <h1 className="font-serif text-2xl font-semibold tracking-tight text-slate-900">MCQ Studio</h1>
         <div className="flex items-center gap-2">
+          <input type="file" accept=".json" ref={fileInputRef} className="hidden" onChange={handleImport} />
           <button
-            onClick={() => {
-              if (window.confirm('Are you sure you want to load the default medical MCQs? This will overwrite your current project.')) {
-                import('../data.json').then(data => {
-                  dispatch({ type: 'LOAD_PROJECT', payload: data.default as any });
-                });
-              }
-            }}
-            className="text-[11px] uppercase tracking-wider font-semibold text-brand-600 hover:text-brand-700 transition-colors flex items-center gap-1.5 bg-brand-50 hover:bg-brand-100 px-3 py-1.5 rounded-full"
+            onClick={() => fileInputRef.current?.click()}
+            className="text-[11px] uppercase tracking-wider font-semibold text-slate-500 hover:text-slate-900 transition-colors flex items-center gap-1.5 bg-slate-50 hover:bg-slate-100 px-3 py-1.5 rounded-full"
+            title="Import JSON"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
-            Load Data
+            Import
           </button>
           <button
             onClick={() => {
@@ -43,6 +60,7 @@ export function Editor() {
               downloadAnchorNode.remove();
             }}
             className="text-[11px] uppercase tracking-wider font-semibold text-slate-500 hover:text-slate-900 transition-colors flex items-center gap-1.5 bg-slate-50 hover:bg-slate-100 px-3 py-1.5 rounded-full"
+            title="Export JSON"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
             Export

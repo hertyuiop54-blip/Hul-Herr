@@ -88,8 +88,8 @@ export function AIBubble() {
     setIsProcessing(true);
 
     try {
-      const apiKey = process.env.GEMINI_API_KEY;
-      if (!apiKey) throw new Error("GEMINI_API_KEY is not set.");
+      const apiKey = state.settings.geminiApiKey || process.env.GEMINI_API_KEY;
+      if (!apiKey) throw new Error("Please enter your Gemini API Key in the Settings panel.");
 
       const ai = new GoogleGenAI({ apiKey });
       

@@ -71,6 +71,23 @@ export function SettingsPanel() {
             </div>
           </label>
         </div>
+
+        <div className="pt-4 border-t border-slate-200/60">
+          <label className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider block mb-3">AI Assistant</label>
+          <div className="space-y-2">
+            <div className="flex justify-between mb-1">
+              <span className="text-[12px] font-medium text-slate-600">Gemini API Key</span>
+            </div>
+            <input
+              type="password"
+              value={settings.geminiApiKey || ''}
+              onChange={(e) => update('geminiApiKey', e.target.value)}
+              placeholder="Enter your Gemini API Key..."
+              className="w-full border border-slate-200 rounded-lg p-2.5 text-xs focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 outline-none transition-all bg-white shadow-sm"
+            />
+            <p className="text-[10px] text-slate-400 mt-1">Required for the AI Assistant to work properly.</p>
+          </div>
+        </div>
       </div>
     </div>
   );

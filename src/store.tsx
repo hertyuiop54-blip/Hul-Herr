@@ -39,6 +39,7 @@ const defaultSettings: Settings = {
   columnGap: 12,
   enableExplanations: true,
   highlightDuplicates: true,
+  geminiApiKey: '',
 };
 
 const defaultProject: Project = defaultData as Project;
