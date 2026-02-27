@@ -16,8 +16,6 @@ function MainLayout() {
         <div className="h-16 glass-panel border-b border-white/60 flex items-center justify-between px-8 shrink-0 z-10">
           <div className="flex items-center gap-4">
             <h2 className="font-serif text-xl font-medium tracking-tight text-slate-800">Preview</h2>
-            <div className="h-4 w-px bg-slate-200"></div>
-            <span className="text-[11px] uppercase tracking-widest font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full">A4 Format</span>
           </div>
           <div className="flex items-center gap-3">
             <button
