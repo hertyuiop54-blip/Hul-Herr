@@ -108,6 +108,25 @@ const A4Page: React.FC<{ page: LayoutPage }> = ({ page }) => {
             />
           );
         }
+        if (el.type === 'flag') {
+          return (
+            <div
+              key={i}
+              style={{
+                position: 'absolute',
+                left: `${el.x * scale}px`,
+                top: `${el.y * scale}px`,
+                color: el.color || '#ef4444',
+                fontSize: `${(el.fontSize || 10) * scale * 0.4}px`,
+                lineHeight: 1,
+              }}
+            >
+              <svg width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 2v20h2v-6h14l-2.5-5L20 6H6V2H4z" />
+              </svg>
+            </div>
+          );
+        }
         if (el.type === 'underline') {
           return (
             <div

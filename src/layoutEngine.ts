@@ -7,7 +7,7 @@ export interface LayoutPage {
 }
 
 export interface LayoutElement {
-  type: 'text' | 'rect' | 'line' | 'underline';
+  type: 'text' | 'rect' | 'line' | 'underline' | 'flag';
   x: number;
   y: number;
   w?: number;
@@ -116,7 +116,7 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
     }
   }
 
-  function addText(text: string, x: number, y: number, fontSize: number, fontStyle: 'normal' | 'bold' | 'italic', color: string = '#000000', align: 'left' | 'center' | 'right' = 'left', isDuplicate: boolean = false) {
+  function addText(text: string, x: number, y: number, fontSize: number, fontStyle: 'normal' | 'bold' | 'italic', color: string = '#000000', align: 'left' | 'center' | 'right' = 'left', isDuplicate: boolean = false, isLastLine: boolean = true) {
     currentElements.push({ type: 'text', text, x, y, fontSize, fontStyle, color, align });
     if (isDuplicate && settings.highlightDuplicates) {
       const w = getTextWidth(text, fontSize, fontStyle);
@@ -124,6 +124,10 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
       if (align === 'center') ux -= w / 2;
       else if (align === 'right') ux -= w;
       currentElements.push({ type: 'underline', x: ux, y: y + (fontSize * 0.35), w, color: '#ef4444' });
+      
+      if (isLastLine) {
+        currentElements.push({ type: 'flag', x: ux + w + 2, y: y - fontSize * 0.25, color: '#ef4444', fontSize });
+      }
     }
   }
 
@@ -210,9 +214,10 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
 
       // Render Stem
       const isMcqDuplicate = duplicateIds.has(mcq.id);
-      for (const line of stemLines) {
+      for (let i = 0; i < stemLines.length; i++) {
+        const line = stemLines[i];
         if (currentY + stemLineHeight > maxY) nextColumn();
-        addText(line, currentX, currentY, mcqTextSize, 'bold', '#0f172a', 'left', isMcqDuplicate);
+        addText(line, currentX, currentY, mcqTextSize, 'bold', '#0f172a', 'left', isMcqDuplicate, i === stemLines.length - 1);
         currentY += stemLineHeight + 1;
       }
       currentY += 3;
@@ -223,9 +228,10 @@ export function computeLayout(project: Project, settings: Settings, duplicateIds
         const lines = propLinesArr[p];
         const isPropDuplicate = duplicateIds.has(prop.id);
         
-        for (const line of lines) {
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i];
           if (currentY + propLineHeight > maxY) nextColumn();
-          addText(line, currentX + 5, currentY, propTextSize, 'normal', '#475569', 'left', isPropDuplicate);
+          addText(line, currentX + 5, currentY, propTextSize, 'normal', '#475569', 'left', isPropDuplicate, i === lines.length - 1);
           currentY += propLineHeight + 1.5;
         }
         currentY += 1.5;

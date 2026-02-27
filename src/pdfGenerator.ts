@@ -50,6 +50,15 @@ export function generatePDF(project: Project, settings: Settings) {
         doc.setDrawColor(el.color || '#000000');
         doc.setLineWidth(0.5);
         doc.line(el.x, el.y, el.x + (el.w || 0), el.y);
+      } else if (el.type === 'flag') {
+        doc.setDrawColor(el.color || '#ef4444');
+        doc.setFillColor(el.color || '#ef4444');
+        doc.setLineWidth(0.2);
+        const flagHeight = (el.fontSize || 10) * 0.35;
+        // pole
+        doc.line(el.x, el.y, el.x, el.y + flagHeight);
+        // flag
+        doc.rect(el.x, el.y, flagHeight * 0.8, flagHeight * 0.6, 'FD');
       }
     }
   }
